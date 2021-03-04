@@ -1,7 +1,6 @@
-import '../styles/globals.css'
+// import { Provider } from "urql";
+// import { client, ssrCache } from "../src/urqlClient";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
-
-export default MyApp
